@@ -25,11 +25,11 @@ pip install -r requirements.txt
 ```
 Avvio del server MCP (CLI MCP)
 
-MCP Inspector
+Aprire due terminali diversi.  Eseguire nel primo (MCP Inspector):
 ```
 mcp dev main.py  
 ```
-Avvio Server
+Mentre nel secondo (Avvio Server):
 ```
 mcp run src/main.py --transport=streamable-http
 ```
