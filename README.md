@@ -1,12 +1,11 @@
 # CSV Analyst — MCP Server
 
-Un piccolo server MCP (Model Context Protocol) scritto in Python, progettato per esplorare e analizzare file CSV in locale.  
+Un piccolo server MCP (Model Context Protocol) scritto in Python, progettato per esplorare e analizzare file CSV.  
 Permette di elencare, visualizzare, filtrare e descrivere dataset tramite strumenti (`@mcp.tool`) e prompt interattivi.
 
 ## Requisiti
 
 - Python **3.10+**
-- (Consigliato) ambiente virtuale `venv`
 
 ---
 
