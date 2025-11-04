@@ -18,27 +18,18 @@ Clona il repository:
 git clone https://github.com/Shore99/MCP_Test.git
 ```
 
-Crea e attiva l’ambiente virtuale:
-
-Windows PowerShell
-```
-python -m venv venv
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\venv\Scripts\Activate.ps1
-```
-macOS / Linux
-```
-python3 -m venv venv
-source venv/bin/activate
-```
 Installa le dipendenze:
 
 ```
 pip install -r requirements.txt
 ```
-Avvio del server MCP 
+Avvio del server MCP (CLI MCP)
 
-CLI MCP (richiede mcp[cli])
+MCP Inspector
+```
+mcp dev main.py  
+```
+Avvio Server
 ```
 mcp run src/main.py --transport=streamable-http
 ```
