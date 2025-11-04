@@ -23,9 +23,13 @@ Installa le dipendenze:
 ```
 pip install -r requirements.txt
 ```
-Avvio del server MCP (CLI MCP)
+Inserire nella cartella "data" i CSV da analizzare
 
-Aprire due terminali diversi.  Eseguire nel primo (MCP Inspector):
+##Avvio del server MCP (CLI MCP)
+
+Aprire due terminali diversi, assicurandosi di essere nel path src.
+
+Eseguire nel primo (MCP Inspector):
 ```
 mcp dev main.py  
 ```
